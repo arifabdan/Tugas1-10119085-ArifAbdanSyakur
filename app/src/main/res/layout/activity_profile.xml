@@ -10,8 +10,8 @@
     android:paddingTop="20dp"
     android:paddingRight="20dp"
     android:paddingLeft="20dp"
-    android:paddingBottom="20dp"
-    >
+    android:paddingBottom="20dp">
+    //21-4-2022,Arif Abdan Syakur,10119085,IF-3
 
     <RelativeLayout
         android:layout_width="match_parent"

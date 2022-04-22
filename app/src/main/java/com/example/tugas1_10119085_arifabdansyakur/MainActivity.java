@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.window.SplashScreen;
-
+//21-4-2022,Arif Abdan Syakur,10119085,IF-3
 public class MainActivity extends AppCompatActivity {
         Handler h = new Handler();
     @Override

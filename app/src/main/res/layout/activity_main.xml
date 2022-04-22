@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:background="@drawable/ic_frame_1"
     android:orientation="vertical">
-
+    //21-4-2022,Arif Abdan Syakur,10119085,IF-3
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
