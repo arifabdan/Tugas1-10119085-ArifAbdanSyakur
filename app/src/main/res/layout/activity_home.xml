@@ -34,6 +34,30 @@
         android:layout_marginTop="50dp"
         android:textColor="@color/white"
         android:fontFamily="@font/poppins"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Arif Abdan Syakur"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 10119085"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas : IF3"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"/>
 
     <Button
         android:layout_width="match_parent"
@@ -43,7 +67,7 @@
         android:text="@string/profile"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:fontFamily="@font/poppins"/>
 
     <Button

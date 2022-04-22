@@ -109,16 +109,51 @@
         android:backgroundTint="#FAAB05"/>
 
 
-
     <Button
         android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#FAAB05"
         android:text="@string/register1"
         android:onClick="Pindah"
         android:textColor="@color/white"
         tools:ignore="OnClick"
         android:fontFamily="@font/poppins"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pengerjaan : 21-4-2022"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Arif Abdan Syakur"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 10119085"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas : IF3"
+        android:gravity="center"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textSize="10dp"/>
 </LinearLayout>

@@ -115,7 +115,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanggal Pembuatan : 21-4-2022"
+        android:text="Tanggal Pengerjaan  : 21-4-2022"
         android:gravity="center"
         android:layout_marginTop="50dp"
         android:textColor="@color/white"
