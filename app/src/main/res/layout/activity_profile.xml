@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@drawable/ic_frame_2"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:background="#FAAB05">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="@drawable/crop1"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arif Abdan Syakur"
+            android:textSize="27dp"
+            android:textColor="#3E3D3D"
+            android:fontFamily="@font/poppins"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_below="@+id/nama"
+            android:fontFamily="@font/poppins"
+            android:text="10119085"
+            android:textColor="#3E3D3D"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_below="@+id/nim"
+            android:fontFamily="@font/poppins"
+            android:text="IF3"
+            android:textColor="#3E3D3D"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Diri :"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assalamualaikum wr. wb. Nama lengkap saya Arif Abdan Syakur. Saya lahir di Magelang tanggal 7 Maret 2001. Sekarang saya tinggal di Bandung dan sedang menjalani pendidikan di Universitas Komputer Indonesia."
+        android:background="#FAAB05"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins1"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/home1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Home"
+            android:fontFamily="@font/poppins"
+            android:backgroundTint="#FAAB05"
+            />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Exit"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/poppins"
+            android:backgroundTint="#9A9483"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pembuatan : 21-4-2022"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"/>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tugas1-10119085-ArifAbdanSyakur</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="silahkan_registrasi">Silahkan Registrasi</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register2">Register</string>
+    <string name="register1">Register</string>
+</resources>
